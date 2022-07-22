@@ -1,0 +1,203 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.pathfindingVisualizer
+{
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.pathfindingVisualizer .container
+{
+    min-width: 100%;
+    max-width: 100%;
+    padding: auto;
+
+    color: #fff;
+    background: rgb(73, 1, 83);
+    background: linear-gradient(90deg, rgba(73, 1, 83, 1) 0%, rgba(121, 3, 138, 1) 29%, rgba(31, 133, 225, 1) 82%, rgba(160, 215, 236, 1) 100%);
+}
+
+.pathfindingVisualizer .container .heading
+{
+    display: flex;
+
+    padding: 5px 10px 10px 10px;
+
+    text-align: center;
+
+    justify-content: space-between;
+}
+
+.pathfindingVisualizer .container .heading h2
+{
+    cursor: pointer;
+}
+
+.textBox
+{
+    line-height: 20px;
+
+    display: flex;
+    display: flex;
+
+    padding: 10px;
+
+    justify-content: space-around;
+}
+
+.textBox .weightContainer input
+{
+    height: 20px;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: transparent;
+}
+
+.textBox .weightContainer button
+{
+    font-size: 12px;
+    font-weight: 500;
+
+    position: relative;
+
+    width: 60px;
+    margin-left: 6px;
+    padding: 5px 10px;
+
+    color: #fff;
+    border-color: #060336;
+    border-radius: 5px;
+    background-color: #060336;
+}
+
+.textBox .weightContainer button:hover
+{
+    color: #05d0de;
+}
+
+.textBox .startPointContainer
+{
+    font-weight: 500;
+}
+.textBox .startPointContainer input
+{
+    width: 40px;
+    height: 20px;
+    margin: 0 5px 0 5px;
+    padding: 0 10px;
+
+    color: #fff;
+    background-color: transparent;
+}
+
+.textBox .endPointContainer
+{
+    font-weight: 500;
+}
+.textBox .endPointContainer input
+{
+    width: 40px;
+    height: 20px;
+    margin: 0 5px 0 5px;
+    padding: 0 10px;
+
+    color: #fff;
+    background-color: transparent;
+}
+
+.container p
+{
+    padding: 8px 10px 5px 10px;
+}
+
+.buttonContainer
+{
+    font-size: 12px;
+    font-weight: 500;
+
+    position: relative;
+
+    margin-left: 6px;
+    padding: 5px 10px 5px 10px;
+
+    cursor: pointer;
+    transition-duration: .8s;
+
+    color: #fff;
+    border-color: #060336;
+    border-radius: 5px;
+    background-color: #060336;
+}
+.buttonContainer:hover
+{
+    color: #05d0de;
+}
+
+.buttonContainer p
+{
+    padding: 0;
+}
+
+.visualGridContainer .gridBox
+{
+    min-width: 80%;
+    max-width: 80%;
+    margin:0 auto;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.visualGridContainer
+{
+    background-color: black !important;
+}
+
+body
+{
+    background-color: black !important;
+}
+
+/* Responsiveness */
+
+@media(max-width:780px)
+{
+    body
+    {
+        background-color: black;
+    }
+    .visualGridContainer .gridBox
+    {
+        min-width: 200%;
+        max-width: 200%;
+        margin: 5px auto;
+
+        border: 2px solid black;
+        background-color: black;
+    }
+
+    .pathfindingVisualizer .container
+    {
+        min-width: 200%;
+        max-width: 200%;
+        padding: auto;
+
+        color: #fff;
+        background-color: black;
+    }
+
+    .ref::before
+    {
+        font-weight: bold;
+
+        content: '(View on Lanscape Mode) ';
+
+        color: #fff;
+    }
+}
