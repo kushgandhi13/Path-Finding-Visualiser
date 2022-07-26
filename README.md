@@ -9,7 +9,7 @@ Check out our app at [PathFinding-Visualizer](https://velvety-marigold-e2320d.ne
 
 ## Demo
 
-![](https://github.com/kushgandhi13/Path-Finding-Visualizer/blob/main/pathFinder.gif)
+![](https://github.com/kushgandhi13/Path-Finding-Visualizer/blob/master/pathFinder.gif)
 
 ## Features
 
